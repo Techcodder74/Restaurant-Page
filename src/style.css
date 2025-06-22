@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+#Top{
+    height:40px;
+   padding:15px;
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    background-color: bisque;
+    margin-bottom: 0;
+}
+#Top>button{
+    width:120px;
+    outline: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#Top>button:hover{
+    background-color: rgb(209, 171, 121);
+    color:aliceblue;
+    border: none;
+}
+#content{
+    /* margin-top: 0;
+    width:100%;
+    height:100%; */
+    padding: 2em;
+    background-color: aqua;
+   
+}
+
+.menuhead{
+    text-align: center;
+    color:orchid;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.itemSection{
+    display:grid;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    gap :1em;
+    
+}
+.menuSec{
+    background-color: antiquewhite;
+    width:90%;
+    margin:1em auto;
+    padding:2em;
+    box-sizing: border-box;
+    border-radius: 25px 15px;
+    
+}
+.menuSec>h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(101, 110, 69);
+
+}
+.menuSec:hover{
+ box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.itemCard{
+   position: relative;
+    height: 170px;
+    background-color: beige;
+    padding:1em;
+    border-radius: 10px;
+}
+.itemCard h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color:brown;
+}
+.itemCard:hover{
+  scale: 1.01;
+
+}
+.price{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    right:2em;
+    color:rebeccapurple;
+}
+#content h1, #content h2, #content h3 {
+    margin-top: 0;
+}
+
+/* home section */
+.Home{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.hh{
+    text-align:center;
+}
+.itemImg{
+     width: auto;
+      height: 80px;
+}
+.homeItems{
+    display: flex;
+    gap:40px
+}
+.imgPara{
+    display: grid;
+    grid-template-columns: minmax(70px, 0.8fr) minmax(50px,1fr);
+    gap: 5px;
+}
+h1 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2e2e2e;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3.hh {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.75rem;
+  color: #d2691e; /* subtle brownish-orange */
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#homesection p,
+#aboutUs p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+/* contactus */
+.contactSection {
+  padding: 30px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contactDetails {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: 5em;
+  margin-right: auto;
+}
+
+.note {
+  margin-top: 30px;
+  font-style: italic;
+  color: #666;
+}
